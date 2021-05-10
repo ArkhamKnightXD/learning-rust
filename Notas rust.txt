@@ -1,0 +1,9 @@
+cargo init: Este comando se encarga de inicializar un nuevo proyecto de rust esto me creara la estructura basica y el manejador de dependencias cargo
+
+cargo build: Si solo queremos compilar el proyecto y no ejecutarlo en consola utilizamos este comando, esto se guardara en target/debug/
+
+cargo build --release: Esto compilara el proyecto para produccion y nos dara un build mas optimizado, esto se guardara en targe/release
+
+cargo run: Este comando es el que se debe de utilizar para compilar nuestro proyecto y ejecutar
+
+target: En esta carpeta iran todos los archivos que se generan a la hora de compilar nuestro proyecto

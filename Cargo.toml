@@ -1,0 +1,7 @@
+[package]
+name = "learning-rust"
+version = "0.1.0"
+edition = "2018"
+
+#Aqui pongo las dependencias que necesite
+[dependencies]
