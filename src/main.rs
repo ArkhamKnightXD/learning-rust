@@ -2,6 +2,7 @@
 mod print;
 mod vars;
 mod types;
+mod string;
 
 fn main() {
 
@@ -10,5 +11,7 @@ fn main() {
 
 //    vars::run();
 
-    types::run();
+  //  types::run();
+
+    string::run();
 }
