@@ -7,12 +7,12 @@
 //mod arrays;
 //mod vectors;
 //mod conditionals;
-//mod loops;
+mod loops;
 //mod functions;
 //mod pointers_ref;
 //mod structs;
 //mod enums;
-mod cli;
+//mod cli;
 
 fn main() {
 
@@ -34,7 +34,7 @@ fn main() {
 
 //    conditionals::run();
 
-    //loops::run();
+    loops::run();
 
    // functions::run();
 
@@ -44,5 +44,5 @@ fn main() {
 
    // enums::run();
 
-   cli::run();
+  // cli::run();
 }
