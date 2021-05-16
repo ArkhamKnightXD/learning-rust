@@ -1,16 +1,18 @@
 //forma de importar archivos
-mod print;
-mod vars;
-mod types;
-mod string;
-mod tuples;
-mod arrays;
-mod vectors;
-mod conditionals;
-mod loops;
-mod functions;
-mod pointers_ref;
-mod structs;
+//mod print;
+//mod vars;
+//mod types;
+//mod string;
+//mod tuples;
+//mod arrays;
+//mod vectors;
+//mod conditionals;
+//mod loops;
+//mod functions;
+//mod pointers_ref;
+//mod structs;
+//mod enums;
+mod cli;
 
 fn main() {
 
@@ -38,6 +40,9 @@ fn main() {
 
 //   pointers_ref::run();
 
-    structs::run();
+//    structs::run();
 
+   // enums::run();
+
+   cli::run();
 }

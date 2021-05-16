@@ -52,6 +52,22 @@ impl Person {
         format!("{} - {}", self.first_name, self.last_name)
     }
 
+
+    //metodo setter, funcion setter en este caso
+
+    //utilizamos mut y & porque cambiaremos el valor de person
+    fn set_first_name(&mut self, name: &str){
+
+        self.first_name = name.to_string();
+    }
+
+
+    //name to tuple
+    fn name_to_tuple(self) -> (String, String){
+
+        (self.first_name, self.last_name)
+    }
+
 }
 
 pub fn run(){
@@ -88,8 +104,11 @@ pub fn run(){
 
     let mut person = Person::new_person("Karvin", "Jimenez");
 
+    person.set_first_name("El pepe");
+
     println!("Soy: {} {}", person.first_name, person.last_name);
 
     println!("{}", person.get_full_name());
-    
+
+    println!("{:?}", person.name_to_tuple());
 }
